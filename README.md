@@ -1,5 +1,5 @@
 # Introducción  al análisis y visualización de datos con R para Ciencias Sociales y  Humanidades
-Curso de verano para el [Magíster en Investigación Social y Desarrollo](http://www.magisterinvestigacionsocial.cl/) de la Universidad de Concepción realizado entre el 7 y el 11 de enero de 2019.
+Curso de verano para el [Magíster en Investigación Social y Desarrollo](http://www.magisterinvestigacionsocial.cl/) de la Universidad de Concepción, a realizarse entre el 7 y el 11 de enero de 2019.
 
 ## Instalación de R y RStudio
 
@@ -68,4 +68,7 @@ WARNING: You''re using a non-UTF8 locale, therefore only ASCII characters will w
 Please read R for Mac OS X FAQ (see Help) section 9 and adjust your system preferences accordingly.'
 ```
 
-Esto ocurre porque existe un problema con la codificación de caracteres definida en su computador. Para resolverlo, deben cerrar R/RStudio, abrir el "Terminal" de su computador, pegar el siguiente código: `defaults write org.R-project.R force.LANG en_US.UTF-8` y ejecutarlo. Si nunca han ocupado el Terminal, no se preocupen, porque dedicaremos un tiempo al inicio de la primera clase para resolver este tipo de asuntos. 
+Esto ocurre porque existe un problema con la codificación de caracteres definida en su computador. Para resolverlo, deben cerrar R/RStudio, abrir el "Terminal" de su computador, pegar el siguiente código: `defaults write org.R-project.R force.LANG en_US.UTF-8` y ejecutarlo. Si nunca han ocupado el Terminal, no se preocupen, porque dedicaremos un tiempo al inicio de la primera clase para resolver este tipo de asuntos.
+
+## Dudas sobre el proceso de instalación
+Si te encuentras con algún problema en las instalación que no sabes cómo resolver, puedes enviarme un correo para que tratemos de buscarle una solución: `riva.quiroga` arroba `uc.cl`.
