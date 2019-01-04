@@ -1,7 +1,10 @@
 # Introducción  al análisis y visualización de datos con R para Ciencias Sociales y  Humanidades
 Curso de verano para el [Magíster en Investigación Social y Desarrollo](http://www.magisterinvestigacionsocial.cl/) de la Universidad de Concepción, a realizarse entre el 7 y el 11 de enero de 2019.
 
-## Instalación de R y RStudio
+## Preparación para el curso
+Para el curso es necesario que traigan su computador personal. Lo ideal sería que ya tuvieran R y RStudio instalados. A continuación están las indicaciones para hacerlo.
+
+### Instalación de R y RStudio
 
 En este curso utilizaremos R a través del IDE RStudio. ¿Qué es un IDE? IDE es el acrónimo de *Integrated Development Environment* (*Entorno de Desarrollo Integrado*). Esto quiere decir que RStudio es una aplicación que nos entrega herramientas para hacer más fácil el desarrollo de proyectos usando R.
 
@@ -20,7 +23,7 @@ En este curso usaremos la última versión de R y RStudio, así que si tienes in
 
 IMPORTANTE: Si te aparece algún error durante este proceso, lo más probable es que sea por alguna configuración de tu sistema operativo. En ese caso, la mejor manera de buscar una solución es copiar el error que arroja R, pegarlo en tu motor de búsqueda favorito y ver cómo alguien que se enfrentó a eso antes lo resolvió.
 
-## Instalación de los paquetes de R que utilizaremos
+### Instalación de los paquetes de R que utilizaremos
 
 Cuando instalamos R por primera vez en nuestro computador, lo que estamos instalando es lo que se conoce como "R Base", es decir, los elementos centrales del lenguaje de programación. Una de las ventajas de R es que se trata de un lenguaje extensible: la propia comunidad de usuarios puede desarrollar nuevas posibilidades para utilizarlo. La manera de compartir estos nuevos desarrollos es a través de "paquetes", que incluyen, entre otras cosas, código y datos. Una analogía que se suele utilizar para explicar esto es que R Base es un teléfono celular tal como viene de fábrica y los paquetes las _apps_ que descargamos para que tenga más funcionalidades.
 
@@ -50,7 +53,7 @@ El último paquete es un poco más pesado que el resto, así que, dependiendo de
 #### Warnings / Errores
 Si no tienes la última versión de R, puede que aparezca un "Warning" durante la instalación, que te avisa que el paquete fue construido bajo otra versión de R. Un "Warning" es distinto a un error: R ejecuta el código que le pides, pero te advierte que no todo puede resultar como esperas. Cuando aparece un error, en cambio, el código no se ejecuta.
 
-## En caso de que tengan un Mac
+### En caso de que tengan un Mac
 
 Es posible que a algunas personas que usen sistemas operativos Mac les aparezca un mensaje similar a este cuando abren R/RStudio:
 
@@ -70,5 +73,15 @@ Please read R for Mac OS X FAQ (see Help) section 9 and adjust your system prefe
 
 Esto ocurre porque existe un problema con la codificación de caracteres definida en su computador. Para resolverlo, deben cerrar R/RStudio, abrir el "Terminal" de su computador, pegar el siguiente código: `defaults write org.R-project.R force.LANG en_US.UTF-8` y ejecutarlo. Si nunca han ocupado el Terminal, no se preocupen, porque dedicaremos un tiempo al inicio de la primera clase para resolver este tipo de asuntos.
 
-## Dudas sobre el proceso de instalación
+### Dudas sobre el proceso de instalación
 Si te encuentras con algún problema en las instalación que no sabes cómo resolver, puedes enviarme un correo para que tratemos de buscarle una solución: `riva.quiroga` arroba `uc.cl`.
+
+## Sesión 1
+
+## Sesión 2
+
+## Sesión 3
+
+## Sesión 4
+
+## Sesión 5
