@@ -1,5 +1,7 @@
 # Introducción  al análisis y visualización de datos con R para Ciencias Sociales y  Humanidades
-Curso de verano para el [Magíster en Investigación Social y Desarrollo](http://www.magisterinvestigacionsocial.cl/) de la Universidad de Concepción, a realizarse entre el 7 y el 11 de enero de 2019.
+Curso de verano para el [Magíster en Investigación Social y Desarrollo](http://www.magisterinvestigacionsocial.cl/) de la Universidad de Concepción, a realizarse entre el 7 y el 11 de enero de 2019. El enlace directo a este repositorio es: http://bit.ly/udec_curso_r
+
+> El curso tiene por objetivo introducir a sus participantes en el manejo de R para el procesamiento, análisis y visualización de datos. A partir de las realización de ejercicios prácticos, se espera que los participantes se familiaricen con el uso de esta herramienta y comprendan el potencial que tiene para la investigación en Ciencias Sociales y Humanidades.
 
 ## Preparación para el curso
 Para el curso es necesario que traigan su computador personal. Lo ideal sería que ya tuvieran R y RStudio instalados. A continuación están las indicaciones para hacerlo.
@@ -77,11 +79,27 @@ Esto ocurre porque existe un problema con la codificación de caracteres definid
 Si te encuentras con algún problema en las instalación que no sabes cómo resolver, puedes enviarme un correo para que tratemos de buscarle una solución: `riva.quiroga` arroba `uc.cl`.
 
 ## Sesión 1
+En esta primera sesión hablaremos acerca de qué es un lenguaje de programación y cuáles son las ventajas que tiene utilizarlo en el marco de la investigación en Ciencias Sociales y Humanidades. Conoceremos cómo se ejecuta el código en R, las herramientas que ofrece RStudio y algunas funciones básicas para el trabajo con datos.
+
+El código que vayamos escribiendo durante la sesión estará disponible en el siguiente enlace: http://bit.ly/udec_r_sesion1.
+
+### Recursos adicionales
+
+* Sitio web [Tidyverse](https://www.tidyverse.org/)
+* Webinar: [Usando R para Ciencia de Datos](https://resources.rstudio.com/webinars/2018-05-23-13-01-usando-r-para-la-ciencia-de-datos-edgar-ruiz-edited)
 
 ## Sesión 2
 
+### Recursos adicionales
+
 ## Sesión 3
+
+### Recursos adicionales
 
 ## Sesión 4
 
+### Recursos adicionales
+
 ## Sesión 5
+
+### Recursos adicionales
