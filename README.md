@@ -91,6 +91,7 @@ El código que vayamos escribiendo durante la sesión estará disponible en el s
 
 ## Sesión 2
 El código de hoy aparecerá en este enlace: http://bit.ly/udec_r_sesion2
+https://www.dropbox.com/s/ohdb4hr6rpajpld/Casen%202017.sav?dl=0
 
 ### Recursos adicionales
 
