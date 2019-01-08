@@ -87,8 +87,10 @@ El código que vayamos escribiendo durante la sesión estará disponible en el s
 
 * Sitio web [Tidyverse](https://www.tidyverse.org/)
 * Webinar: [Usando R para Ciencia de Datos](https://resources.rstudio.com/webinars/2018-05-23-13-01-usando-r-para-la-ciencia-de-datos-edgar-ruiz-edited)
+* Sitio para para seleccionar colores según código hexadecimal: www.color-hex.com
 
 ## Sesión 2
+El código de hoy aparecerá en este enlace: http://bit.ly/udec_r_sesion2
 
 ### Recursos adicionales
 
