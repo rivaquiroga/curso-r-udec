@@ -81,23 +81,59 @@ Si te encuentras con algún problema en las instalación que no sabes cómo reso
 ## Sesión 1
 En esta primera sesión hablaremos acerca de qué es un lenguaje de programación y cuáles son las ventajas que tiene utilizarlo en el marco de la investigación en Ciencias Sociales y Humanidades. Conoceremos cómo se ejecuta el código en R, las herramientas que ofrece RStudio y algunas funciones básicas para el trabajo con datos.
 
-El código que vayamos escribiendo durante la sesión estará disponible en el siguiente enlace: http://bit.ly/udec_r_sesion1.
+El código que vayamos escribiendo durante la sesión estará disponible [en el siguiente enlace](http://bit.ly/udec_r_sesion1).
 
 ### Recursos adicionales
 
 * Sitio web [Tidyverse](https://www.tidyverse.org/)
 * Webinar: [Usando R para Ciencia de Datos](https://resources.rstudio.com/webinars/2018-05-23-13-01-usando-r-para-la-ciencia-de-datos-edgar-ruiz-edited)
-* Sitio para para seleccionar colores según código hexadecimal: www.color-hex.com
+
+* [Sitio para para seleccionar colores según código hexadecimal](www.color-hex.com).
 
 ## Sesión 2
-El código de hoy aparecerá en este enlace: http://bit.ly/udec_r_sesion2
-https://www.dropbox.com/s/ohdb4hr6rpajpld/Casen%202017.sav?dl=0
+En esta sesión revisaremos distintas formas de leer datos hacia R. Usaremos el paquete `haven` para importar archivos en formatos propios de programas como SPSS y STATA y veremos como leer un archivo que está en internet directamente (es decir, sin guardarlo antes localmente en el computador). Revisaremos funciones para limpiar y ordenar datos, y otras para unir y transformar datasets.
+
+Los paquetes nuevos que instalaremos en esta sesión son:
+
+```r
+install.packages("downloader")
+install.packages("readxl")
+```
+
+El código de hoy aparecerá [en este enlace](http://bit.ly/udec_r_sesion2).
+
+Si no tienen un programa para descomprimir archivos `.rar` en su computador, pueden descargar los datos para el ejercicio 1 desde [acá](https://www.dropbox.com/s/ohdb4hr6rpajpld/Casen%202017.sav?dl=0).
 
 ### Recursos adicionales
+
+* Pueden encontrar información adicional sobre el paquete `haven` en este [enlace](https://haven.tidyverse.org/).
 
 ## Sesión 3
+En la primera parte de la sesión de hoy haremos un par de ejercicios breves sobre limpieza y transformación de datos que quedaron pendientes de la sesión de ayer, y luego nos enfocaremos en el análisis de datos textuales.
+
+Para uno de los ejercicios pendientes usaremos los datos que se encuentran en [este enlace](https://www.dropbox.com/s/7hhznyuzfzdsrpl/datos_s3.xls?dl=0).
+
+Los paquetes nuevos que instalaremos en esta sesión son:
+```r
+install.packages("tidytext")
+install.packages("quanteda")
+install.packages("readtext")
+install.packages("syuzhet")
+```
+El código de hoy aparecerá en [este enlace](http://bit.ly/udec_r_sesion3) y los datos que es necesario que descarguen [en este otro](http://bit.ly/udec_r_datos_sesion3).
 
 ### Recursos adicionales
+
+* El [sitio web](https://quanteda.io/) del paquete `quanteda` es muy completo. Incluso tiene un [tutorial en español](https://quanteda.io/articles/pkgdown/quickstart_es.html)
+
+* Existe un libro asociado al paquete `tidytext` que está [disponible en línea](https://www.tidytextmining.com/). Ahí encontrarán ejemplos de otros tipos de análisis que no alcanzaremos a ver acá, como _topic modeling_.
+
+* [Ejemplo en español sobre el uso de expresiones regulares con el paquete stringr](https://github.com/C-Lara/Curso-R/blob/master/Lista-dataframes-factores-tablas/expresiones-regulares.R)
+
+* [Lista de expresiones regulares en R](http://www.diegocalvo.es/expresiones-regulares-en-r/)
+
+* [Tutorial sobre uso de expresiones regulares en español](https://www.datanalytics.com/libro_r/manipulacion-basica-de-texto.html)
+
 
 ## Sesión 4
 
