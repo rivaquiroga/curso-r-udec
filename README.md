@@ -108,6 +108,8 @@ Si no tienen un programa para descomprimir archivos `.rar` en su computador, pue
 
 * Pueden encontrar información adicional sobre el paquete `haven` en este [enlace](https://haven.tidyverse.org/).
 
+* [ModernDive](https://moderndive.com/): Tutorial sobre análisis estadístico en R
+
 ## Sesión 3
 En la primera parte de la sesión de hoy haremos un par de ejercicios breves sobre limpieza y transformación de datos que quedaron pendientes de la sesión de ayer, y luego nos enfocaremos en el análisis de datos textuales.
 
