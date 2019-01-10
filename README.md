@@ -139,6 +139,19 @@ El código de hoy aparecerá en [este enlace](http://bit.ly/udec_r_sesion3) y lo
 
 ## Sesión 4
 
+En la primera parte de la sesión de hoy seguiremos explorando las posibilidades del paquete `quanteda` para hacer análisis de textos. Luego, nos enfocaremos en estrategias para hacer _web scraping_, es decir, para extraer información de sitios web.
+
+Los paquetes nuevos que instalaremos en esta sesión son:
+
+```r
+install.packages("rvest")
+install.packages("janitor")
+```
+* El código que vayamos escribiendo hoy irá apareciendo en [este enlace](http://bit.ly/udec_r_sesion4). El archivo ya tiene algunas líneas del código de ayer que usaremos para empezar hoy.
+* Seguiremos trabajando con los mismos datos de ayer, así que no es necesario descargar nada nuevo.
+* En la segunda parte de la sesión extraeremos datos de las siguientes páginas: [registro de asesorías externas de la cámara de diputados](https://www.camara.cl/camara/transparencia_asesorias.aspx) y [registro de reuniones y audiencias de senador\*s](http://www.senado.cl/appsenado/index.php?mo=lobby&ac=GetReuniones).
+
+
 ### Recursos adicionales
 
 ## Sesión 5
