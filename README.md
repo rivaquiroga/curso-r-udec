@@ -147,8 +147,8 @@ Los paquetes nuevos que instalaremos en esta sesión son:
 install.packages("rvest")
 install.packages("janitor")
 ```
-* El código que vayamos escribiendo hoy irá apareciendo en [este enlace](http://bit.ly/udec_r_sesion4). El archivo ya tiene algunas líneas del código de ayer que usaremos para empezar hoy.
-* Seguiremos trabajando con los mismos datos de ayer, así que no es necesario descargar nada nuevo.
+* El código que vayamos escribiendo hoy irá apareciendo en [este enlace](https://www.dropbox.com/s/ekko5h3wpgp92sd/script_sesion4.R?dl=0). El archivo ya tiene algunas líneas del código de ayer que usaremos para empezar hoy.
+* Seguiremos trabajando con los mismos datos de ayer, así que no es necesario descargar nada nuevo. En caso de que no hayan alcanzado a guardar el corpus como objeto de R (`corpus_programas.rds`), [pueden descargarlo acá](https://www.dropbox.com/s/hxw0uemd0i1znjs/corpus_programas.rds?dl=0).
 * En la segunda parte de la sesión extraeremos datos de las siguientes páginas: [registro de asesorías externas de la cámara de diputados](https://www.camara.cl/camara/transparencia_asesorias.aspx) y [registro de reuniones y audiencias de senador\*s](http://www.senado.cl/appsenado/index.php?mo=lobby&ac=GetReuniones).
 
 
