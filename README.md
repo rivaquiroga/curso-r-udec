@@ -156,4 +156,38 @@ install.packages("janitor")
 
 ## Sesión 5
 
-### Recursos adicionales
+Esta última sesión se iniciará a las 17:00 con una actividad abierta sobre cómo se organiza la comunidad de R a través de iniciativas como RLadies y LatinR, entre otras.
+
+![](https://github.com/rivaquiroga/curso-r-udec/blob/master/images/r-en-conce.png)
+
+Luego, en nuestra última sesión del curso veremos algunos ejemplos adicionales que complementan lo que revisamos a lo largo de esta semana.
+
+* El código que vayamos escribiendo hoy irá apareciendo en [este enlace](https://www.dropbox.com/s/ruupf6x497e9ma7/script_sesion5.R?dl=0). El archivo ya tiene algunas líneas del código de ayer que usaremos para empezar hoy (básicamente, reconstruiremos lo que hicimos al final de la clase de una forma mucho más rápida y eficiente).
+
+* Los datos que usaremos están en [esta carpeta](https://www.dropbox.com/sh/lz6p9jgk1qz1lvt/AAAJjbIdfqHBrSUW_uqb8YBaa?dl=0)
+
+### Recursos para seguir profundizando sobre temas que vimos o sobre otros que no eran parte del curso pero que les pueden interesar
+
+#### Recursos en español
+
+* [Ciencia de Datos para gente sociable](https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/). Este tutorial tiene por destinatarios principales personas de Ciencias Sociales. La última parte está enfocada en el trabajo con datos espaciales.
+* [The Programming Historian](https://programminghistorian.org/es/lecciones/) publica tutoriales revisados entre pares que buscan acercar herramientas digitales a personas que vienen de las humanidades. Encontrarán recursos sobre R, Python y entre otros. También hay una versión en inglés del sitio.
+* **Próximamente** [R para Ciencia de Datos](http://es.r4ds.hadley.nz). En este enlace pueden ver la traducción en proceso del libro [R for Data Science](https://r4ds.had.co.nz) que está realizando la comunidad de R de Latinoamérica.
+
+#### Visualización de datos
+ Durante el curso trabajamos principalmente con el paquete `ggplot2`. Pueden encontrar la documentación del paquete con la indicación de qué hace cada función en el [sitio web del Tidyverse](https://ggplot2.tidyverse.org). Otros paquetes que pueden explorar:
+
+* `plotly`
+* `gganimate`
+* `highcharter`
+* `patchwork`
+
+#### Datos espaciales
+Paquetes que sirven para hacer análisis de datos especiales:
+* `leaflet`. Su [sitio web](https://rstudio.github.io/leaflet/) es muy completo.
+* `sf`
+
+#### Machine Learning
+* `caret`. [Tiene un sitio web](https://topepo.github.io/caret/index.html).
+
+#### Otros recursos
