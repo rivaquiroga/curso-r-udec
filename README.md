@@ -159,7 +159,7 @@ install.packages("janitor")
 
 Esta última sesión se iniciará a las 17:00 con una actividad abierta sobre cómo se organiza la comunidad de R a través de iniciativas como RLadies y LatinR, entre otras.
 
-![](https://github.com/rivaquiroga/curso-r-udec/blob/master/r-en-conce.png)
+![](https://github.com/rivaquiroga/curso-r-udec/blob/master/r_en_conce.png)
 
 Luego, en nuestra última sesión del curso veremos algunos ejemplos adicionales que complementan lo que revisamos a lo largo de esta semana.
 
