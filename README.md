@@ -159,7 +159,7 @@ install.packages("janitor")
 
 Esta última sesión se iniciará a las 17:00 con una actividad abierta sobre cómo se organiza la comunidad de R a través de iniciativas como RLadies y LatinR, entre otras.
 
-![](https://github.com/rivaquiroga/curso-r-udec/blob/master/images/r-en-conce.png)
+![](https://github.com/rivaquiroga/curso-r-udec/blob/master/r-en-conce.png)
 
 Luego, en nuestra última sesión del curso veremos algunos ejemplos adicionales que complementan lo que revisamos a lo largo de esta semana.
 
@@ -173,7 +173,7 @@ Luego, en nuestra última sesión del curso veremos algunos ejemplos adicionales
 
 * [Ciencia de Datos para gente sociable](https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/). Este tutorial tiene por destinatarios principales personas de Ciencias Sociales. La última parte está enfocada en el trabajo con datos espaciales.
 * [The Programming Historian](https://programminghistorian.org/es/lecciones/) publica tutoriales revisados entre pares que buscan acercar herramientas digitales a personas que vienen de las humanidades. Encontrarán recursos sobre R, Python y entre otros. También hay una versión en inglés del sitio.
-* **Próximamente** [R para Ciencia de Datos](http://es.r4ds.hadley.nz). En este enlace pueden ver la traducción en proceso del libro [R for Data Science](https://r4ds.had.co.nz) que está realizando la comunidad de R de Latinoamérica.
+* **Próximamente** [R para Ciencia de Datos](http://es.r4ds.hadley.nz). En este enlace pueden ver la traducción en proceso del libro [R for Data Science](https://r4ds.had.co.nz) que está realizando la comunidad de R de Latinoamérica. Si quieren saber más del proyecto o les interesa participar en la traducción, revisen [este repositorio](github.com/cienciadedatos)
 
 #### Visualización de datos
  Durante el curso trabajamos principalmente con el paquete `ggplot2`. Pueden encontrar la documentación del paquete con la indicación de qué hace cada función en el [sitio web del Tidyverse](https://ggplot2.tidyverse.org). Otros paquetes que pueden explorar:
@@ -192,10 +192,11 @@ Paquetes que sirven para hacer análisis de datos especiales:
 * `caret`. [Tiene un sitio web muy completo](https://topepo.github.io/caret/index.html).
 
 #### Otros recursos
+... proximamente...
 
 ## Evaluación del curso
 
-Aquellas personas interesadas en tener una evaluación del curso tienen la posibilidad de realizar un ejercicio en el que apliquen una o más estrategias de análisis revisadas. La idea es que piensen en algún problema que quieran resolver usando R y que generen una posible solución para ese problema.
+Aquellas personas interesadas en tener una evaluación del curso tienen la posibilidad de realizar un ejercicio en el que apliquen una o más de las estrategias de análisis revisadas. La idea es que piensen en algún problema que quieran resolver usando R y que generen una posible solución para ese problema.
 
 Algunas ideas:
 * Limpiar y ordenar una base de datos con la que les interesa trabajar en el futuro.
