@@ -150,6 +150,7 @@ install.packages("janitor")
 * El código que vayamos escribiendo hoy irá apareciendo en [este enlace](https://www.dropbox.com/s/ekko5h3wpgp92sd/script_sesion4.R?dl=0). El archivo ya tiene algunas líneas del código de ayer que usaremos para empezar hoy.
 * Seguiremos trabajando con los mismos datos de ayer, así que no es necesario descargar nada nuevo. En caso de que no hayan alcanzado a guardar el corpus como objeto de R (`corpus_programas.rds`), [pueden descargarlo acá](https://www.dropbox.com/s/hxw0uemd0i1znjs/corpus_programas.rds?dl=0).
 * En la segunda parte de la sesión extraeremos datos de las siguientes páginas: 1) [registro de asesorías externas de la cámara de diputados](https://www.camara.cl/camara/transparencia_asesorias.aspx) y 2) [registro de reuniones y audiencias de senador\*s](http://www.senado.cl/appsenado/index.php?mo=lobby&ac=GetReuniones).
+* [Selector gadget](https://selectorgadget.com/): para que Chrome muestre las etiquetas html y sea más fácil escrapear la página.
 
 
 ### Recursos adicionales
@@ -177,17 +178,43 @@ Luego, en nuestra última sesión del curso veremos algunos ejemplos adicionales
 #### Visualización de datos
  Durante el curso trabajamos principalmente con el paquete `ggplot2`. Pueden encontrar la documentación del paquete con la indicación de qué hace cada función en el [sitio web del Tidyverse](https://ggplot2.tidyverse.org). Otros paquetes que pueden explorar:
 
-* `plotly`
-* `gganimate`
-* `highcharter`
-* `patchwork`
+* [`plotly`](https://plot.ly/r/)
+* [`gganimate`](https://gganimate.com/)
+* [`highcharter`](http://jkunst.com/highcharter/)
+* [`patchwork`](https://github.com/thomasp85/patchwork) (este paquete sirve para combinar gráficos de `ggplot2`)
 
 #### Datos espaciales
 Paquetes que sirven para hacer análisis de datos especiales:
 * `leaflet`. Su [sitio web](https://rstudio.github.io/leaflet/) es muy completo.
-* `sf`
+* [`sf`](http://r-spatial.github.io/sf/)
 
 #### Machine Learning
-* `caret`. [Tiene un sitio web](https://topepo.github.io/caret/index.html).
+* `caret`. [Tiene un sitio web muy completo](https://topepo.github.io/caret/index.html).
 
 #### Otros recursos
+
+## Evaluación del curso
+
+Aquellas personas interesadas en tener una evaluación del curso tienen la posibilidad de realizar un ejercicio en el que apliquen una o más estrategias de análisis revisadas. La idea es que piensen en algún problema que quieran resolver usando R y que generen una posible solución para ese problema.
+
+Algunas ideas:
+* Limpiar y ordenar una base de datos con la que les interesa trabajar en el futuro.
+* Crear una base de datos a partir de la unión de datos provenientes de distintas fuentes.
+* Hacer _web scraping_ de algún sitio web del que quieran obtener datos.
+* Explorar otros datos de la [Unión Interparlamentaria](https://data.ipu.org) y generar alguna visualización.
+* Aplicar alguna de las estrategias de análisis de textos revisadas en el curso, pero con un corpus que sea de su interés.
+* Leer desde internet un archivo `.csv` hacia R, explorar los datos usando alguna de las funciones que vimos (`filter()`, `group_by`, `mutate()`, `summarize()`, `select()`, etc.) y visualizarlos con el paquete `ggplot2`.
+* Una mezcla de alguno de los ejemplos anteriores.
+
+Si tienen alguna idea en mente y quieren discutirla antes de empezar, pueden enviarme un correo: `riva.quiroga` arroba `uc.cl`.
+
+#### Modalidad de trabajo
+El trabajo se puede realizar de forma individual o en parejas.
+
+#### ¿Qué debo entregar?
+Si la propuesta **no** implica la carga de archivos locales (es decir, que estén en el computador de quien ejecuta el código), pueden entregar solo el _script_. Si lo que quieren hacer implica leer algún archivo desde el computador a R, entonces deben entregar la carpeta con su proyecto comprimida, que incluya el _script_ y los archivos que se utilizarán. La entrega se hace a través del [siguiente enlace](https://www.dropbox.com/request/HOdBuxCZv9Unj7vCa18w).
+
+#### ¿Hasta cuándo puedo entregar el ejercicio?
+El plazo para entregar el ejercicio es el lunes **21 de enero**.
+Cualquier situación especial, podemos resolverla por correo **antes** de esa fecha (por ejemplo, si necesitan tener su nota antes o requieren más plazo para poder desarrollar el ejercicio).
+Es importante que consideren que si entregan después de esa fecha su nota no alcanzará a quedar registrada ahora en enero y tendrán que esperar hasta marzo para que aparezca.
