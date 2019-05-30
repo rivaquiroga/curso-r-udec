@@ -57,7 +57,7 @@ Si no tienes la última versión de R, puede que aparezca un "Warning" durante l
 
 ### En caso de que tengan un Mac
 
-Es posible que a algunas personas que usen sistemas operativos Mac les aparezca un mensaje similar a este cuando abren R/RStudio:
+Es posible que a algunas personas que usen sistemas operativos Mac les aparezca un mensaje similar a éste cuando abren R/RStudio:
 
 ``` r
 
@@ -76,7 +76,7 @@ Please read R for Mac OS X FAQ (see Help) section 9 and adjust your system prefe
 Esto ocurre porque existe un problema con la codificación de caracteres definida en su computador. Para resolverlo, deben cerrar R/RStudio, abrir el "Terminal" de su computador, pegar el siguiente código: `defaults write org.R-project.R force.LANG en_US.UTF-8` y ejecutarlo. Si nunca han ocupado el Terminal, no se preocupen, porque dedicaremos un tiempo al inicio de la primera clase para resolver este tipo de asuntos.
 
 ### Dudas sobre el proceso de instalación
-Si te encuentras con algún problema en las instalación que no sabes cómo resolver, puedes enviarme un correo para que tratemos de buscarle una solución: `riva.quiroga` arroba `uc.cl`.
+Si te encuentras con algún problema en la instalación que no sabes cómo resolver, puedes enviarme un correo para que tratemos de buscarle una solución: `riva.quiroga` arroba `uc.cl`.
 
 ## Sesión 1
 En esta primera sesión hablaremos acerca de qué es un lenguaje de programación y cuáles son las ventajas que tiene utilizarlo en el marco de la investigación en Ciencias Sociales y Humanidades. Conoceremos cómo se ejecuta el código en R, las herramientas que ofrece RStudio y algunas funciones básicas para el trabajo con datos.
@@ -163,7 +163,7 @@ Esta última sesión se iniciará a las 17:00 con una actividad abierta sobre c�
 
 Luego, en nuestra última sesión del curso veremos algunos ejemplos adicionales que complementan lo que revisamos a lo largo de esta semana.
 
-* El código que vayamos escribiendo hoy irá apareciendo en [este enlace](https://www.dropbox.com/s/ruupf6x497e9ma7/script_sesion5.R?dl=0). El archivo ya tiene algunas líneas del código de ayer que usaremos para empezar hoy (básicamente, reconstruiremos lo que hicimos al final de la clase de una forma mucho más rápida y eficiente).
+* El código que vayamos escribiendo hoy, irá apareciendo en [este enlace](https://www.dropbox.com/s/ruupf6x497e9ma7/script_sesion5.R?dl=0). El archivo ya tiene algunas líneas del código de ayer que usaremos para empezar hoy (básicamente, reconstruiremos lo que hicimos al final de la clase de una forma mucho más rápida y eficiente).
 
 * Los datos que usaremos están en [esta carpeta](https://www.dropbox.com/sh/lz6p9jgk1qz1lvt/AAAJjbIdfqHBrSUW_uqb8YBaa?dl=0)
 
@@ -171,8 +171,8 @@ Luego, en nuestra última sesión del curso veremos algunos ejemplos adicionales
 
 #### Recursos en español
 
-* [Ciencia de Datos para gente sociable](https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/). Este tutorial tiene por destinatarios principales personas de Ciencias Sociales. La última parte está enfocada en el trabajo con datos espaciales.
-* [The Programming Historian](https://programminghistorian.org/es/lecciones/) publica tutoriales revisados entre pares que buscan acercar herramientas digitales a personas que vienen de las humanidades. Encontrarán recursos sobre R, Python y entre otros. También hay una versión en inglés del sitio.
+* [Ciencia de Datos para gente sociable](https://bitsandbricks.github.io/ciencia_de_datos_gente_sociable/). Este tutorial tiene por destinatarios principales, personas de Ciencias Sociales. La última parte está enfocada en el trabajo con datos espaciales.
+* [The Programming Historian](https://programminghistorian.org/es/lecciones/) publica tutoriales revisados entre pares que buscan acercar herramientas digitales a personas que vienen de las humanidades. Encontrarán recursos sobre R, Python entre otros. También hay una versión en inglés del sitio.
 * **Próximamente** [R para Ciencia de Datos](http://es.r4ds.hadley.nz). En este enlace pueden ver la traducción en proceso del libro [R for Data Science](https://r4ds.had.co.nz) que está realizando la comunidad de R de Latinoamérica. Si quieren saber más del proyecto o les interesa participar en la traducción, revisen [este repositorio](github.com/cienciadedatos)
 
 #### Visualización de datos
@@ -184,7 +184,7 @@ Luego, en nuestra última sesión del curso veremos algunos ejemplos adicionales
 * [`patchwork`](https://github.com/thomasp85/patchwork) (este paquete sirve para combinar gráficos de `ggplot2`)
 
 #### Datos espaciales
-Paquetes que sirven para hacer análisis de datos especiales:
+Paquetes que sirven para hacer análisis de datos espaciales:
 * `leaflet`. Su [sitio web](https://rstudio.github.io/leaflet/) es muy completo.
 * [`sf`](http://r-spatial.github.io/sf/)
 
